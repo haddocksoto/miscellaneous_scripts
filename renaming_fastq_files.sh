@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
 # Renaming FASTQ files downloaded from BASESPACE 
