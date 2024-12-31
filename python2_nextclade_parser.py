@@ -26,7 +26,7 @@ def main():
     # prompt user
     directory_path = get_directory_input("Please enter the path to the directory containing the files: ")
 
-    # list of known mutations from Daisy
+    # list of known mutations:
     known_mutations = [
         #add mutations like the following:
         "C39139T"
