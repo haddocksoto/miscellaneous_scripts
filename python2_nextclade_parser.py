@@ -28,27 +28,14 @@ def main():
 
     # list of known mutations from Daisy
     known_mutations = [
-        "G29923A", "C30730T", "G31039A", "C31081T", "A31102G", "C31529T", "T32867C", "T33102A", 
-        "C33159T", "A33656C", "T36049C", "G36445A", "G37170T", "T39248C", "A73076G", "C73350T", 
-        "A75790G", "T76123C", "A76198G", "A76648G", "A76911G", "A78461C", "A78942G", "C79267T", 
-        "C79502A", "A79829G", "T82688C", "T83360C", "T83843C", "T84290C", "A84395G", "C85763T", 
-        "A86247G", "G86502T", "G86728A", "C35352A", "G75982A", "G77643A", "G86343A", "C30510T", 
-        "G30699T", "C35859T", "C36732T", "T38382A", "G30367A", "G31053A", "G34459A", "G37202A", 
-        "C38662T", "C39139T"
+        #add mutations like the following:
+        "C39139T"
     ]
 
     # dictionary of muts to clade
     nomenclature_dict = {
-        "G29923A": "Clade I", "C30730T": "Clade I", "C31081T": "Clade I", "A31102G": "Clade I", "C31529T": "Clade I",
-        "T32867C": "Clade I", "T33102A": "Clade I", "C33159T": "Clade I", "A33656C": "Clade I", "T36049C": "Clade I",
-        "G36445A": "Clade I", "C37170T": "Clade I", "T39248C": "Clade I", "A73076G": "Clade I", "C73350T": "Clade I",
-        "A75790G": "Clade I", "T76123C": "Clade I", "A76198G": "Clade I", "A76648G": "Clade I", "A76911G": "Clade I",
-        "A78461C": "Clade I", "A78942G": "Clade I", "C79267T": "Clade I", "C79502A": "Clade I", "A79829G": "Clade I",
-        "T82688C": "Clade I", "T83360C": "Clade I", "T83843C": "Clade I", "T84290C": "Clade I", "A84395G": "Clade I",
-        "C85763T": "Clade I", "A86247G": "Clade I", "G86502T": "Clade I", "G86728A": "Clade I", "C35352A": "Clade Ia",
-        "G75982A": "Clade Ib", "G77643A": "Clade Ib", "G86343A": "Clade Ib", "C30510T": "Clade IIa", "G30699T": "Clade IIa",
-        "C35859T": "Clade IIa", "C36732T": "Clade IIa", "T38382A": "Clade IIb Lineage B", "G30367A": "Clade IIb Lineage B", "G31053A": "Clade IIb Lineage B",
-        "G34459A": "Clade IIb Lineage B", "G37202A": "Clade IIb Lineage B", "C38662T": "Clade IIb Lineage B", "C39139T": "Clade IIb Lineage B"
+        #made assignments like the following into a dict:
+        "C39139T": "Assignment 1"
     }
 
     # Create the output directory if it doesn't exist
